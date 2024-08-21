@@ -108,4 +108,5 @@ firstly how to connect different data models with each other, secondly use of qu
 Although it is based on simple curd opeartions except delete but connecting models with each other like under a specifc category or search an item by name was challenging for me i hope i did as u thought i would be
 
 4.)What you would have done differently given more time?
+
   if given more time i would have created the frontend part too with serving or handling images with multer too but this is what i did as much as possible by me in the given time     
