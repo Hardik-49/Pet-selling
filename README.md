@@ -85,8 +85,27 @@ to  get all items under a category--  Method GET  (http://localhost:5000/api/ite
 
 to  get all items under a subcategory--  Method GET  (http://localhost:5000/api/items/sub/:subcategoryId)
 
+
 to get a item by id or name Method GET http://localhost:5000/api/item/items?name=Beverages   , http://localhost:5000/api/item/items?id=66bf35ccb80c147d38030e1b
 
 to update a Item Method PUT http://localhost:5000/api/item/:id
 
 to search item Method GET  http://localhost:5000/api/item/search?name=Latte
+
+
+Questions related to assignment
+
+1.) Which database you have chosen and why?
+
+I have choosen Mongodb database as MongoDB removes the concept of "rows" of conventional and relational data models by introducing "documents." here query is easier to perform because of moongoose which is bulid on top of mongodb makes it easy to use for development
+
+2.) 3 things that you learned from this assignment?
+
+firstly how to connect different data models with each other, secondly use of query parameter for searching by name or id , thirdly how to make concise backend code with proper folder structure i tried to make it clear and concise as well as i could
+
+3.) What was the most difficult part of the assignment?
+
+Although it is based on simple curd opeartions except delete but connecting models with each other like under a specifc category or search an item by name was challenging for me i hope i did as u thought i would be
+
+4.)What you would have done differently given more time?
+  if given more time i would have created the frontend part too with serving or handling images with multer too but this is what i did as much as possible by me in the given time     
